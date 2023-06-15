@@ -1,0 +1,71 @@
+header{
+    background-color: #CE2829;
+    height: auto;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+    position: relative;
+}
+header>img{
+    width: 270px;
+    margin-top: auto;
+}
+.page p{
+    text-align: left;
+    color: gray;
+
+}
+.page p a{
+    text-decoration: none;
+    color: gray;
+    
+}
+.page p a:last-child{
+    color: #CE2829
+}
+main{
+    background-color: #FAF7F2;
+    margin-bottom: 5%;
+}
+.pagePath p{
+    margin-top: 5%;
+}
+.pizzaInfo{
+    margin: 5% 0;
+}
+.page{
+    margin-top: auto;
+}
+.formBanner{
+    display: flex;
+    justify-content: center;
+}
+.formBanner img{
+    object-fit: cover; 
+    margin-top: -10%;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    
+}
+.pizzaName{
+    margin-top: 15px;
+    color: #292929;
+    margin-bottom: 15px;
+}
+.content h3{
+    font-weight: 700;
+}
+.rate, .stock{
+    float: right;
+    font-size: 0.9rem;
+    color: #5F5F5F
+}
+.description{
+    color: #5F5F5F;
+}

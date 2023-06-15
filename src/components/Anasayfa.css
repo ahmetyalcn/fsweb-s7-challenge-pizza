@@ -1,0 +1,33 @@
+.main{
+    background-image: url("../../public/Assets/mvp-banner.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+.main p{
+    font-size: 2.5rem;
+}
+.main img{
+    width: 270px;
+    margin-bottom: 10%;
+}
+.icerik h3{
+    font-family: "Satisfy",sans-serif;
+    color: #FDC913;
+}
+.siparisVer{
+    background-color: #FDC913;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}

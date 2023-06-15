@@ -1,0 +1,144 @@
+h5 span{
+    color:#CE2829;
+}
+.radioButtons.form-check{
+    display: inline-block;
+}
+ 
+input[type="radio"]{
+
+  clip-path: inset(50%);
+  display: flex;
+  flex-direction: row;
+
+}
+
+.c-radio-table__label {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 2.5rem;
+	height: 2.5rem;
+    color: #777;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.c-radio-table__label--white {
+	background-color: #FAF7F2;
+}
+
+.c-radio-table__radio:checked + .c-radio-table__label {
+	color: #ffffff;
+	background-color: #777;
+}
+.selectBox{
+    background-color: #FAF7F2 !important;
+    color: #777 !important;
+}
+
+.myCheckbox {
+    margin-right: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: #FAF7F2;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .myCheckbox:checked {
+    background-color: #FDC913 !important;
+  }
+  
+  .myCheckbox:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .myCheckbox::before {
+    content: "\2714"; /* Unicode karakteri: ✓ */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 12px;
+    line-height: 1;
+    color: white;
+    transition: transform 0.3s;
+  }
+  
+  .myCheckbox:checked::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+.checkbox.form-check{
+    display: flex;
+    align-items: center;
+}
+.checkboxes{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+.checkboxes .checkbox{
+    width: 33%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.ekMalzemeler{
+    margin-top: 5%;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 20%;
+}
+.counter>div{
+    height: 50px;
+    width: 40px;
+    text-align: center;
+background-color: #FAF7F2;
+ border-radius: 3px;
+ line-height: 50px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.counter button{
+    border-radius: 3px;
+    background-color: #FAF7F2;
+   height: 50px;
+   border: none;
+   width: 40px;
+}
+.siparisOnay{
+    width: 70%;
+}
+.siparisToplami{
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: #FAF7F2;
+    padding: 15px;
+}
+input, .textarea{
+    background-color: #FAF7F2 !important;
+}
+.checkout{
+    display: flex;
+    justify-content: space-between;
+}
+.siparisOnay button{
+    border-radius: 0;
+}
+.siparisToplami .toplam{
+    color: red;
+}
+.siparisToplami span{
+    float: right;
+}

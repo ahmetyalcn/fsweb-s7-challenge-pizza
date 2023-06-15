@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Quattrocento:wght@400;700&family=Satisfy&display=swap');
+.onayMain{
+    height: auto;
+    width: 100%;
+    background-color: #CE2829;
+    color: white;
+text-align: center;
+    font-family: 'Barlow', sans-serif !important;
+}
+.onayContent{
+    text-align: left;    
+  
+   
+}
+.onayMain img{
+        width: 270px; margin-top: 10%;
+ 
+        
+}
+.onayMain h3{
+    font-family: 'Satisfy', cursive;
+    color: #FDC913;
+    margin-top: 10%;
+}
+.onayMain h1{
+    font-family: 'Barlow', sans-serif;
+}
+.hr-small {
+    border-width: 0.03rem;
+    border-color: white;
+    opacity: 1;
+  }
+  .total{
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 1rem;
+  }
+  .total b{
+    float: right;
+  }
+  .totalTitle{
+    font-size: 1.2rem;
+  }
+  .pizzaAdi {
+    font-size: 1.4rem;
+  }
