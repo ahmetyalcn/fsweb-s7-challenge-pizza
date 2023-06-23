@@ -1,11 +1,12 @@
 import { Row, Col, Form, FormGroup, Input, Label, Button, FormFeedback } from "reactstrap";
 import "./PizzaForm.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState,useParams } from "react";
 import * as Yup from "yup";
 
 
 const malzemeListesi = ["Pepperoni", "Domates", "Biber", "Sosis", "Mısır", "Sucuk", "Kanada Jambonu", "Mantar", "Ananas", "Tavuk Izgara", "Jalapeno", "Kabak", "Soğan", "Sarımsak"];
 const hamurBoyutu = ["S", "M", "L"];
+
 const formSchema = Yup.object().shape({
     boyut: Yup.string().required("Boyut seçimi zorunlu.").nullable(),
     hamur: Yup.string().required("Hamur seçimi zorunlu.").nullable(),
@@ -27,6 +28,7 @@ const PizzaForm = ({ handleSubmit, siparis, setSiparis, fiyat, pizzaAdi }) => {
 
     const [valid, setValid] = useState(false);
     const [count, setCount] = useState(1);
+
 
 
     useEffect(() => {

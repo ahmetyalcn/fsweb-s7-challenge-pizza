@@ -10,6 +10,32 @@ import { Route, Switch, useHistory } from "react-router-dom";
 
 
 const App = () => {
+  const urunler = [
+    {
+      id: 1,
+      adi: "Terminal Pizza",
+      puan: 4.9,
+      stok: 200,
+      fiyat: 60,
+      img:"food-1.png"
+    },
+    {
+      id: 2,
+      adi: "Position Absolute Acı Pizza",
+      puan: 4.9,
+      stok: 928,
+      fiyat: 85,
+      img:"food-2.png"
+    },
+    {
+      id: 3,
+      adi: "useeffect Tavuklu Burger",
+      puan: 4.9,
+      stok: 462,
+      fiyat: 75,
+      img: "food-3.png"
+    },
+  ]
   const [siparis, setSiparis] = useState({
     adSoyad: "",
     boyut: "",
@@ -42,7 +68,7 @@ const App = () => {
     <>
       <Switch>
         <Route path="/" exact>
-          <Anasayfa />
+          <Anasayfa urunler={urunler} />
         </Route>
         <Route path="/pizza">
           <SiparisFormu handleSubmit={handleSubmit} siparis={siparis} setSiparis={setSiparis} />

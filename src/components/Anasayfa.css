@@ -1,6 +1,6 @@
 .main{
     background-image: url("../../public/Assets/mvp-banner.png");
-    height: 100vh;
+    height: 88vh;
     width: 100%;
     background-position: center center;
     background-size: cover;
@@ -10,6 +10,10 @@
     text-align: center;
     color: white;
     font-family: 'Barlow', sans-serif;
+}
+main{
+    background-color: #FAF7F2;
+    
 }
 .main p{
     font-size: 2.5rem;
@@ -30,4 +34,115 @@
     font-weight: 600;
     font-size: 0.8rem;
     border-radius: 20px;
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+}
+.filterNav img{
+    padding: 10px;
+}
+.filterNav{
+    display: inline-block;
+    margin: 1rem;
+}
+.boxes{
+    padding: 5% 10%;
+}
+.kutu{
+    height: 60vh;
+    background-image: url("../../public/Assets/adv-aseets/kart-1.png");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+padding: 1.5rem;
+color: white;
+font-family: 'Quattrocento', sans-serif;
+     margin-bottom: 2vh;
+}
+.kutu2{
+    height: 29vh;
+    margin-bottom: 2vh;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+}
+.kutu2:first-child{
+    background-image: url("../../public/Assets/adv-aseets/kart-2.png");
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+.kutu2:last-child{
+    background-image: url("../../public/Assets/adv-aseets/kart-3.png");
+    background-position: center center;
+    background-size: cover;
+}
+.boxes img{
+    width: 100%;
+}
+.cardTitle{
+font-size: 3rem;    
+}
+.cardTitleCard2{
+    font-size: 2rem;
+}
+.cardTitleCard2 span{
+    color: #CE2829;
+}
+.kutu b{
+    font-family: 'Barlow', sans-serif;
+}
+.siparisVerCard{
+    background-color: #fff;
+    color: #CE2829;
+    padding: 10px 30px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.bestMenu{
+    padding: 0 10%;
+    text-align: center;
+    
+   
+    
+}
+.bestMenu ul .filterNav{
+    border-radius: 50px;
+    margin: 0.2rem;
+    background-color: white;
+    padding: 0.2rem 0.8rem;
+}
+.bestMenu h3{
+    font-family: "Satisfy",sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #CE2829;
+    flex-direction: column;
+}
+.pizzalar{
+    padding: 0 10%;
+}
+.pizzaCard{
+    height: auto;
+    border-radius: 10px;
+    padding: 1.5rem;
+    color: black;
+padding: 10%;
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+    margin-bottom: 2vh;
+}
+.pizzaCard img{
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+.pizzaCard>div{
+    display: flex;
+    justify-content: space-between;
 }
